@@ -4,7 +4,6 @@ from .forms import GradoForm
 from universidad.models import Grado, Asignacion, Materia
 
 
-#Vista para insertar una nueva película y los actores que actúan en ella.
 
 def grado_nuevo(request):
     if request.method == "POST":

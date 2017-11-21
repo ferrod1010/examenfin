@@ -1,5 +1,5 @@
 from django.contrib import admin
-from peliculas.models import Materia, MateriaAdmin, Grado, GradoAdmin
+from universidad.models import Materia, MateriaAdmin, Grado, GradoAdmin
 
 #Registramos nuestras clases principales.
 admin.site.register(Materia, MateriaAdmin)
